@@ -4,10 +4,49 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Accessible Portfolio</title>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<header>
+        <h1 role="heading" aria-level="1">My Accessible Portfolio</h1>
+    </header>
+
+	<nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact us</a></li>
+        </ul>
+    </nav>
+
+	<section>
+		<img role="img" src="https://img.freepik.com/free-vector/smiling-young-man-illustration_1308-174401.jpg?t=st=1735988439~exp=1735992039~hmac=cf40766a6b6925377ad3c42302d04bd8a7d3046176e54600c37e6ae80dda8c0e&w=740" alt="Profile image"/>
+	</section>
+
+	<section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am a <strong role="bold">frontend developer</strong> with a passion for creating accessible, user-friendly websites. I love solving real world problems.</p>
+    </section>
+
+	<section id="projects">
+        <h2>Projects</h2>
+        <ul role="list">
+            <li role="listitem">Responsive Portfolio Website</li>
+            <li role="listitem">E-commerce Website</li>
+            <li role="listitem">Accessible Blogging Website</li>
+        </ul>
+    </section>
+
+	<footer id="contact">
+		<p>contact me at: <a href="mauryajay67@gmail.com">mauryajay67@gmail.com</a></p>
+		<p>made with &#9829; by <a href="https://github.com/zaymaurya">Jay</a></p>
+	</footer>
+
+	
+
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
